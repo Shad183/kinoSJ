@@ -30,7 +30,7 @@ function setMovieData(movieIndex, moviePrice) {
 
 
 
-// Update total and count
+
 
 function updateSelectedCount() {
 
@@ -38,12 +38,7 @@ function updateSelectedCount() {
 
 
 
-  //Copy selected seats in arr
-
-  // Map through arr
-
-  // Return new arr indexes
-
+ 
 
 
   const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
